@@ -1,4 +1,4 @@
-﻿// 1 - den 100 - e qeder edelerin cemini tapan algoritm
+﻿// 1 - den 100 - e qeder ededlerin olan cemini tapan algoritm
 using System;
 using System.Threading.Channels;
 int a = 0;
@@ -11,7 +11,7 @@ for (int i = a; i <= b; i++)
 Console.WriteLine(sum);
 
 
-// 1 - den 100 - e qeder edelerin cemini tapan algoritm
+// 1 - den 100 - e qeder olan ededlerin cemini tapan algoritm
 int c = 0;
 int d = 100;
 int total = 0;
@@ -22,7 +22,7 @@ while (c <= d)
 }
 Console.WriteLine(total);
 
-// 1 - den 100 - e qeder olan ededlerin cemi
+// 1 - den 100 - e qeder olan ededlerin cemini tapan alqoritm
 int g = 0;
 int h = 100;
 int tot = 0;
@@ -31,5 +31,3 @@ do {
     g++;
 } while (g <= h);
 Console.WriteLine(tot);
-
-// 1 den 50 e qeder olan ededdleri yazdir
