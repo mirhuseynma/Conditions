@@ -12,3 +12,4 @@ C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\refint\C
 C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.pdb
 C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.genruntimeconfig.cache
 C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\ref\Conditions.dll
+C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.sourcelink.json
