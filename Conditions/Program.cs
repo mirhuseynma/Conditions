@@ -1,4 +1,4 @@
-﻿// 1 - den 100 - e qeder ededlerin olan cemini tapan algoritm
+﻿// 1 - den 100 - e qeder olan ededlerin  cemini tapan algoritm
 using System;
 using System.Threading.Channels;
 int a = 0;
