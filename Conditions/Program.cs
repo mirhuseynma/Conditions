@@ -1,6 +1,6 @@
 ﻿//1 - den 100 - e qeder olan ededlerin  cemini tapan algoritm
-using System;
-using System.Threading.Channels;
+//using System;
+//using System.Threading.Channels;
 int a = 0;
 int b = 100;
 int sum = 0;
@@ -45,13 +45,33 @@ else
 }
 
 
-// verilmis ededin mertebelerini ekrana cap etdirmek
-int value = 4545454;
+//// verilmis ededin mertebelerini ekrana cap etdirmek
+//int value = -458;
+//int count = 0;
+//int cloneval = value;
+//while (value > 0)
+//{
+
+//    value /= 10;
+//    count++;
+
+//}
+//Console.WriteLine("Daxil etdiyiniz " + "'" + cloneval + "'" + " ededi " + count + " mertebeden ibaretdir");
+
+//verilmis ededin mertebelerini ekrana yazdir
+int value = -13;
 int count = 0;
 int cloneval = value;
-while(value > 0)
+
+if (value > 0)
 {
-    value /= 10;
-    count++;
+    while (value > 0)
+    {
+        value /= 10;
+        count++;
+    }
+    Console.WriteLine("Daxil etdiyiniz " + "'" + cloneval + "'" + " ededi " + count + " mertebeden ibaretdir");
 }
-Console.WriteLine("Daxil etdiyiniz " + "'" + cloneval + "'"  + " ededi " + count  + " mertebeden ibaretdir");
+else
+    Console.WriteLine("Sizin daxil etdiyiniz eded: " + "'" + cloneval + "'" + " Tekrar 0 dan boyuk eded daxil edin!");
+
