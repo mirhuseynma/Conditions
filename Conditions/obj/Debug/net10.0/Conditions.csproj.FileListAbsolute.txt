@@ -13,6 +13,7 @@ C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditio
 C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.genruntimeconfig.cache
 C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\ref\Conditions.dll
 C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.sourcelink.json
+<<<<<<< HEAD
 C:\Users\mirhuseynma\Desktop\New folder\Conditions\bin\Debug\net10.0\Conditions.exe
 C:\Users\mirhuseynma\Desktop\New folder\Conditions\bin\Debug\net10.0\Conditions.deps.json
 C:\Users\mirhuseynma\Desktop\New folder\Conditions\bin\Debug\net10.0\Conditions.runtimeconfig.json
@@ -28,3 +29,20 @@ C:\Users\mirhuseynma\Desktop\New folder\Conditions\obj\Debug\net10.0\refint\Cond
 C:\Users\mirhuseynma\Desktop\New folder\Conditions\obj\Debug\net10.0\Conditions.pdb
 C:\Users\mirhuseynma\Desktop\New folder\Conditions\obj\Debug\net10.0\Conditions.genruntimeconfig.cache
 C:\Users\mirhuseynma\Desktop\New folder\Conditions\obj\Debug\net10.0\ref\Conditions.dll
+=======
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\bin\Debug\net10.0\Conditions.exe
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\bin\Debug\net10.0\Conditions.deps.json
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\bin\Debug\net10.0\Conditions.runtimeconfig.json
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\bin\Debug\net10.0\Conditions.dll
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\bin\Debug\net10.0\Conditions.pdb
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.AssemblyInfoInputs.cache
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.AssemblyInfo.cs
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.csproj.CoreCompileInputs.cache
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.sourcelink.json
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.dll
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\refint\Conditions.dll
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.pdb
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\Conditions.genruntimeconfig.cache
+C:\Users\mirhuseynma\Desktop\Conditions\Conditions\obj\Debug\net10.0\ref\Conditions.dll
+>>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3

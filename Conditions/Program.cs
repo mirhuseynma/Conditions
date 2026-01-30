@@ -11,6 +11,7 @@
 #endregion
 
 #region (1 - den 100 - e qeder olan ededlerin cemini tapan algoritm)
+<<<<<<< HEAD
 //int c = 0;
 //int d = 100;
 //int total = 0;
@@ -20,6 +21,17 @@
 //    c++;
 //}
 //Console.WriteLine(total);
+=======
+int c = 110;
+int d = 100;
+int total = 0;
+while (c <= d)
+{
+    total += c;
+    c++;
+}
+Console.WriteLine(total);
+>>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3
 #endregion
 
 #region (1 - den 100 - e qeder olan ededlerin cemini tapan alqoritm)

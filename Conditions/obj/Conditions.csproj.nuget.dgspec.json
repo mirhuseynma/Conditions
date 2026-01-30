@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\mirhuseynma\\Desktop\\New folder\\Conditions\\Conditions.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\mirhuseynma\\Desktop\\New folder\\Conditions\\Conditions.csproj",
         "packagesPath": "C:\\Users\\mirhuseynma\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mirhuseynma\\Desktop\\New folder\\Conditions\\obj\\",
+=======
+    "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Conditions.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Conditions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Conditions.csproj",
+        "projectName": "Conditions",
+        "projectPath": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Conditions.csproj",
+        "packagesPath": "C:\\Users\\mirhuseynma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\obj\\",
+>>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
