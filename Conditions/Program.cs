@@ -12,7 +12,7 @@ Console.WriteLine(sum);
 
 
 #region (1 - den 100 - e qeder olan ededlerin cemini tapan algoritm)
-int c = 0;
+int c = 110;
 int d = 100;
 int total = 0;
 while (c <= d)
