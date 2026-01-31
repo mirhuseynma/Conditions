@@ -1,4 +1,5 @@
-﻿#region (1 - den 100 - e qeder olan ededlerin  cemini tapan algoritm)
+﻿//Home Tasks 1-10
+#region (1 - den 100 - e qeder olan ededlerin  cemini tapan algoritm)
 
 int a = 0;
 int b = 100;
@@ -166,16 +167,19 @@ if(xOne <= yOne && xOne <= zOne)
 #endregion
 
 
-
-
-
+// additional tasks
 #region ("Salam Dünya" və Ad çapı Tapşırıq: Ekrana "Salam" və istifadəçinin daxil etdiyi adı yazdırın.)
 string helloWorld = "Salam Dunya! ";
 string userName = "Mirhuseyn";
 Console.WriteLine(helloWorld + userName);
 #endregion
 
-
+#region (iki ededin cemi)
+int inputOne = 10;
+int inputTwo = 20;
+int totalone = inputOne + inputTwo;
+Console.WriteLine(totalone);
+#endregion
 
 
 
