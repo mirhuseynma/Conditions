@@ -10,11 +10,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Conditions
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\mirhuseynma\Desktop\New folder\Conditions\
-=======
-build_property.ProjectDir = C:\Users\mirhuseynma\Desktop\Conditions\Conditions\
->>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3
+build_property.ProjectDir = C:\Users\abdul\OneDrive\Desktop\Conditions\Conditions\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0

@@ -11,7 +11,6 @@
 #endregion
 
 #region (1 - den 100 - e qeder olan ededlerin cemini tapan algoritm)
-<<<<<<< HEAD
 //int c = 0;
 //int d = 100;
 //int total = 0;
@@ -21,7 +20,9 @@
 //    c++;
 //}
 //Console.WriteLine(total);
-=======
+
+using System.Security.Cryptography.X509Certificates;
+
 int c = 110;
 int d = 100;
 int total = 0;
@@ -31,7 +32,6 @@ while (c <= d)
     c++;
 }
 Console.WriteLine(total);
->>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3
 #endregion
 
 #region (1 - den 100 - e qeder olan ededlerin cemini tapan alqoritm)
@@ -59,17 +59,17 @@ Console.WriteLine(total);
 #endregion
 
 #region (verilmis ededin mertebelerini ekrana cap etdirmek)
-//int value = -458;
-//int count = 0;
-//int cloneval = value;
-//while (value > 0)
-//{
+int value = -458;
+int count = 0;
+int cloneval = value;
+while (value > 0)
+{
 
-//    value /= 10;
-//    count++;
+    value /= 10;
+    count++;
 
-//}
-//Console.WriteLine("Daxil etdiyiniz " + "'" + cloneval + "'" + " ededi " + count + " mertebeden ibaretdir");
+}
+Console.WriteLine("Daxil etdiyiniz " + "'" + cloneval + "'" + " ededi " + count + " mertebeden ibaretdir");
 #endregion
 
 #region (verilmis ededin mertebelerini ekrana yazdir)
@@ -90,37 +90,68 @@ Console.WriteLine(total);
 //    Console.WriteLine("Sizin daxil etdiyiniz eded: " + "'" + cloneval + "'" + " Tekrar 0 dan boyuk eded daxil edin!");
 #endregion
 
+#region (verilmis ededin 2 nin quvveti olub olmamasi)
+int num = 144;
+while (num > 0)
+{
+    num /= 2;
+    if (num % 2 == 0)
+    {
+        Console.WriteLine("2 nin quvvetidir");
+    }
+    else
+        Console.WriteLine("2 nin quvveti deyil");
+    break;
+}
+#endregion
 
-// "Salam Dünya" və Ad çapı Tapşırıq: Ekrana "Salam" və istifadəçinin daxil etdiyi adı yazdırın.
+#region (1-dən M-ədək ədədlər içərisində 3-ə bölünən ədədlərin sayını tapan alqoritm)
+int m = 19;
+int mcount = 0;
+for (int i = 1; i <= m; i++)
+{
+    if (i % 3 == 0) 
+        mcount++;
+} 
+Console.WriteLine(mcount);
+
+#endregion
+
+#region ("Salam Dünya" və Ad çapı Tapşırıq: Ekrana "Salam" və istifadəçinin daxil etdiyi adı yazdırın.)
 string helloWorld = "Salam Dunya! ";
 string userName = "Mirhuseyn";
 Console.WriteLine(helloWorld + userName);
+#endregion
 
-// İki ədədin cəmi Tapşırıq: İstifadəçidən iki ədəd alıb cəmini tapın.
+#region (İki ədədin cəmi Tapşırıq: İstifadəçidən iki ədəd alıb cəmini tapın.)
 int a = 100;
 int b = 200;
 int sum = a + b;
 Console.WriteLine("iki ededinin cemi " + sum);
+#endregion
 
-// Ədədin kvadratı Tapşırıq: Daxil edilən ədədin kvadratını hesablayın.
-int c = 2;
-int squareNum = c * c;
-Console.WriteLine(c + " ededinin kvadrati " +squareNum);
+#region (Ədədin kvadratı Tapşırıq: Daxil edilən ədədin kvadratını hesablayın.)
+int q = 2;
+int squareNum = q * q;
+Console.WriteLine(q + " ededinin kvadrati " +squareNum);
+#endregion
 
-// Düzbucaqlının sahəsi və perimetri. Tapşırıq: Eni və uzunluğu verilən düzbucaqlının sahəsini və perimetrini tapın.
+#region (Düzbucaqlının sahəsi və perimetri. Tapşırıq: Eni və uzunluğu verilən düzbucaqlının sahəsini və perimetrini tapın.)
 int sideOne = 6;
 int sideSecond = 10;
 int area = sideOne * sideSecond;
 int perimetr = 2 * (sideOne + sideSecond);
 Console.WriteLine("duzbucaqlinin sahesi " + area + ", perimetri ise " + perimetr);
+#endregion
 
-// Qalıqlı bölmə Tapşırıq: İki ədədin bölünməsindən alınan qalığı tapın.
+#region (Qalıqlı bölmə Tapşırıq: İki ədədin bölünməsindən alınan qalığı tapın.)
 int numOne = 5;
 int numSecond = 3;
 int resudue = numOne % numSecond;
 Console.WriteLine("Neticeden qalan qaliq " +resudue);
+#endregion
 
-//// Orta yaş hesablama Tapşırıq: tələbəlerin yaşını alıb ortalamasını tapın.
+#region ( Orta yaş hesablama Tapşırıq: tələbəlerin yaşını alıb ortalamasını tapın.)
 ////int ages = Convert.ToInt32(Console.ReadLine());
 //int students = 5;
 //int numOfStudents = 0;
@@ -130,31 +161,36 @@ Console.WriteLine("Neticeden qalan qaliq " +resudue);
 //    numOfStudents += i;
 //}
 //Console.WriteLine(numOfStudents);
+#endregion
 
-// Selsi dəyərini Fahrenheit-ə çevirin
+#region (Selsi dəyərini Fahrenheit-ə çevirin)
 float celci = 12f;
 float faranheyt = celci * 1.8f + 32;
 Console.WriteLine(faranheyt);
+#endregion
 
-// Ədədin son rəqəmi Tapşırıq: Daxil edilən ədədin son rəqəmini ekrana çıxarın.
+#region (Ədədin son rəqəmi Tapşırıq: Daxil edilən ədədin son rəqəmini ekrana çıxarın.)
 int oneNum = 230;
 int endNum = oneNum % 10;
 Console.WriteLine("Verilmis ededin son reqemi: " + endNum);
+#endregion
 
-// Artırma əməliyyatı Tapşırıq: Bir ədədi daxil edin və onu 1 vahid artırıb ekrana yazın (Post-increment).
-int value = 14;
-int incrementValue = ++value;
+#region (Artırma əməliyyatı Tapşırıq: Bir ədədi daxil edin və onu 1 vahid artırıb ekrana yazın (Post-increment).)
+int value1 = 14;
+int incrementValue = ++value1;
 Console.WriteLine("ededin bir ustu: " + incrementValue);
+#endregion
 
-// Tək yoxsa Cüt? Tapşırıq: Ədədin tək və ya cüt olmasını yoxlayın.
+#region (Tək yoxsa Cüt? Tapşırıq: Ədədin tək və ya cüt olmasını yoxlayın.)
 int number = 5;
 if(number % 2 == 0)
 {
     Console.WriteLine(number + " ededi cutdur");
 }else
     Console.WriteLine(number + " ededi tekdir");
+#endregion
 
-// Mənfi, Müsbət, Sıfır Tapşırıq: Ədədin işarəsini təyin edin.
+#region (Mənfi, Müsbət, Sıfır Tapşırıq: Ədədin işarəsini təyin edin.)
 int numberU = -5;
 if(numberU > 0)
 {
@@ -164,8 +200,9 @@ if(numberU > 0)
     Console.WriteLine(" eded 0 a beraberdir");
 }else
     Console.WriteLine(numberU + " ededi menfidir; -");
+#endregion
 
-// Böyük olanı tap Tapşırıq: İki ədəd arasında ən böyüyünü tapın.
+#region (Böyük olanı tap Tapşırıq: İki ədəd arasında ən böyüyünü tapın.)
 int one = 20;
 int second = 5;
 int third = 10;
@@ -174,8 +211,9 @@ if (one > second)
     Console.WriteLine(one + " verilmis ededlerden en boyuyudur");
 }else
     Console.WriteLine(second + " ededi en boyukdur");
+#endregion
 
-// 3 ədəd arasında maksimum Tapşırıq: Üç ədəd daxil edilir, ən böyüyünü tapın.
+#region (3 ədəd arasında maksimum Tapşırıq: Üç ədəd daxil edilir, ən böyüyünü tapın.)
 if (one > second && one > third)
 {
     Console.WriteLine(one + " ededi en boyukdur");
@@ -184,16 +222,18 @@ if (one > second && one > third)
     Console.WriteLine(second + " ededi en boyukdur");
 }else
     Console.WriteLine(third + " ededi en boyukdur");
+#endregion
 
-// İmtahan nəticəsi Tapşırıq: Bal 50-dən yuxarıdırsa "Keçdi", aşağıdırsa "Kəsildi".
+#region (İmtahan nəticəsi Tapşırıq: Bal 50-dən yuxarıdırsa "Keçdi", aşağıdırsa "Kəsildi".)
 int examResult = 40;
 if(examResult > 50)
 {
     Console.WriteLine("imtahandan kecdiniz");
 }else
     Console.WriteLine("imtahandan kesildiniz");
+#endregion
 
-// Həftənin günləri (Switch) Tapşırıq: 1-7 arası rəqəm daxil edilir, günün adını yazın.
+#region (Həftənin günləri (Switch) Tapşırıq: 1-7 arası rəqəm daxil edilir, günün adını yazın.)
 int dayOfWeek = 1;
 switch (dayOfWeek )
 {
@@ -219,8 +259,9 @@ switch (dayOfWeek )
         Console.WriteLine("heftenin yeddinci gunu");
         break;
 }
+#endregion
 
-
+#region
 int fizz = 15;
 if (fizz % 3 == 0 | fizz % 5 == 0)
 {
@@ -233,5 +274,8 @@ if (fizz % 3 == 0 | fizz % 5 == 0)
     Console.WriteLine("Buzz");
 }else
     Console.WriteLine("hec birine bolunmur");
+
+#endregion
+
 
 
