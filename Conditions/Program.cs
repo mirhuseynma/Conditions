@@ -167,40 +167,4 @@ if(xOne <= yOne && xOne <= zOne)
 #endregion
 
 
-// additional tasks
-#region Salam Dünya" və Ad çapı Tapşırıq: Ekrana "Salam" və istifadəçinin daxil etdiyi adı yazdırın
-string helloWorld = "Salam Dunya! ";
-string userName = "Mirhuseyn";
-Console.WriteLine(helloWorld + userName);
-#endregion
-
-#region iki ededin cemi
-int inputOne = 10;
-int inputTwo = 20;
-int totalone = inputOne + inputTwo;
-Console.WriteLine(totalone);
-#endregion
-
-#region daxil edilen ededin kvadrati
-int sequnece = 10;
-int totalSequnece = sequnece * sequnece;
-Console.WriteLine(totalSequnece);
-#endregion
-
-#region Orta yaş hesablama Tapşırıq: tələbəlerin yaşını alıb ortalamasını tapın.
-int studentone = 22;
-int studenttwo = 23;
-int studentthird = 28;
-int halfstudentage = (studentone + studenttwo + studentthird) / 3;
-Console.WriteLine(halfstudentage);
-#endregion
-
-#region selsi deyerini farenheyte cevir
-int celcius = 23;
-double fahreheit = (celcius * 1.8d) + 32;
-Console.WriteLine(fahreheit + " fahrenheit");
-
-#endregion
-
-
     
