@@ -1,46 +1,52 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\mirhuseynma\\Desktop\\New folder\\",
+  "WorkspaceRootPath": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5067487-2A2D-F4C2-C7EC-4B5FEDE74303}|Conditions\\Conditions.csproj|c:\\users\\mirhuseynma\\desktop\\new folder\\conditions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5067487-2A2D-F4C2-C7EC-4B5FEDE74303}|Conditions\\Conditions.csproj|c:\\users\\mirhuseynma\\desktop\\conditions\\conditions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5067487-2A2D-F4C2-C7EC-4B5FEDE74303}|Conditions\\Conditions.csproj|solutionrelative:conditions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
-=======
-  "WorkspaceRootPath": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\",
-  "Documents": [],
->>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAADsWAAAAAAAAAAAlwEsWAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-02T10:55:52.944Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\New folder\\Conditions\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Program.cs",
               "RelativeDocumentMoniker": "Conditions\\Program.cs",
-              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\New folder\\Conditions\\Program.cs",
-              "RelativeToolTip": "Conditions\\Program.cs",
-              "ViewState": "AgIAANIAAAAAAAAAAAAAAOEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Program.cs*",
+              "RelativeToolTip": "Conditions\\Program.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAALIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T10:19:42.54Z",
+              "WhenOpened": "2026-02-02T10:54:11.541Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
-=======
-      "DocumentGroups": []
->>>>>>> ed089a00a1eff0a9c804b0cbefd9b8583be6ebb3
     }
   ]
 }
