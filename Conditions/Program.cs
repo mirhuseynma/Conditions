@@ -25,16 +25,26 @@ while (c <= d)
 Console.WriteLine(total);
 #endregion
 
-#region (ededin sade ve ya murekkeb olmagini yoxlamag)
-int number = 2;
-if ((number % 2 == 0 | number % 3 == 0) & number > 3)
+#region (1 den n e qeder olan  murekkeb ededleri yoxlamag)
+int number = 1;
+for(int i = number; i < 100; i++)
+    if ((i % 2 == 0 | i % 3 == 0) & i > 3)
+    {
+        Console.WriteLine(i);
+        
+    }
+
+
+#endregion
+
+#region (verilmis ededin sade ve ya murekkeb oldugunu yoxlamag)
+int numbera = 7;
+if ((numbera % 2 == 0 | numbera % 3 == 0) & numbera > 3)
 {
-    Console.WriteLine("Daxil etdiyiniz " + "'" + number + "'" + " ededi murekkebdir!");
-}
-else
-{
-    Console.WriteLine("Daxil etdiyiniz " + "'" + number + "'" + " ededi sadedir!");
-}
+    Console.WriteLine(numbera + " ededi murekkeb ededdir");
+}else
+    Console.WriteLine(numbera + " ededi sade ededdir");
+
 #endregion
 
 #region (verilmis ededin mertebelerini ekrana cap etdirmek)
