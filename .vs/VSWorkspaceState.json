@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Conditions"
   ],
-  "SelectedNode": "\\Conditions.slnx",
+  "SelectedNode": "\\Conditions\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

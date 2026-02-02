@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84qepKdnxu4=",
+  "dgSpecHash": "YqEUe2nwdro=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdul\\OneDrive\\Desktop\\Conditions\\Conditions\\Conditions.csproj",
+  "projectFilePath": "C:\\Users\\mirhuseynma\\Desktop\\Conditions\\Conditions\\Conditions.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\abdul\\OneDrive\\Desktop\\Conditions\\Conditions\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\Conditions\\Conditions\\Conditions.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\abdul\\OneDrive\\Desktop\\Conditions\\Conditions\\Conditions.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
