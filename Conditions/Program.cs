@@ -63,7 +63,7 @@ Console.WriteLine("Daxil etdiyiniz " + "'" + cloneval + "'" + " ededi " + count 
 #endregion
 
 #region (verilmis ededin 2 nin quvveti olub olmamasi)
-int num = 81;
+int num = 16;
 int quvvet = 1;
 int esas = 2;
 
@@ -105,7 +105,7 @@ for (int i = 1; i <= n; i++)
 #endregion
 
 #region (Sizə x və y tam ədədləri verilir. Siz 0 ilə x arasında yerləşən və y-ə tam bölünən ən böyük ədədi tapmalısınız. Əgər belə bir ədəd yoxdursa, ekranda -1 çap olunmalıdır.)
-int x = 29;
+int x = 65;
 int y = 30;
 int z = 0;
 
