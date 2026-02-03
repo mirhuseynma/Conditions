@@ -104,15 +104,10 @@ for (int i = 1; i <= n; i++)
 }
 #endregion
 
-#region (Sizə x və y tam ədədləri verilir. Siz 0 ilə x arasında yerləşən və y-ə tam bölünən ən böyük ədədi tapmalısınız. Əgər belə bir ədəd yoxdursa, ekranda -1 çap olunmalıdır.)
-<<<<<<< HEAD
-int x = 65;
-=======
+#region (Sizə x və y tam ədədləri verilir. Siz 0 ilə x arasında yerləşən və y-ə tam bölünən ən böyük ədədi tapmalısınız. Əgər belə bir ədəd yoxdursa, ekranda -1 çap olunmalıdır.)        
 int x = 62;
->>>>>>> d916a4a53e7d15890ea32d775fef4017501c3008
 int y = 30;
 int z = 0;
-
 while (x > 0)
 {
     
@@ -128,7 +123,6 @@ if (z % y != 0)
 {
     Console.WriteLine("-1");
 }
-
 #endregion
 
 #region (Verilmiş 3 rəqəmli ədədin rəqəmlərinin hasilini tapan alqoritm. Misalçün alqoritmə 231 ədədini daxil etdikdə 2*3*1 in nəticəsini verməlidir.)
