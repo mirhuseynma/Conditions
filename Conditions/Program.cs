@@ -1,10 +1,9 @@
 ﻿//Home Tasks 1-10
 #region (1 - den 100 - e qeder olan ededlerin  cemini tapan algoritm)
 
-int a = 0;
-int b = 100;
+
 int sum = 0;
-for (int i = 1; i <= b; i++)
+for (int i = 0; i <= 100; i++)
 {
     sum += i;
 }
@@ -14,10 +13,9 @@ Console.WriteLine(sum);
 #region (1 - den 100 - e qeder olan ededlerin cemini tapan algoritm)
 
 
-int c = 110;
-int d = 150;
+int c = 0
 int total = 0;
-while (c <= d)
+while (c <= 100)
 {
     total += c;
     c++;
@@ -26,9 +24,9 @@ Console.WriteLine(total);
 #endregion
 
 #region (1 den n e qeder olan  murekkeb ededleri yoxlamag)
-int number = 1;
-for(int i = number; i < 100; i++)
-    if ((i % 2 == 0 | i % 3 == 0) & i > 3)
+int n = 100;
+for(int i = 1; i < n; i++)
+    if ((i % 2 == 0 || i % 3 == 0) & i > 3)
     {
         Console.WriteLine(i);
         
@@ -39,7 +37,7 @@ for(int i = number; i < 100; i++)
 
 #region (verilmis ededin sade ve ya murekkeb oldugunu yoxlamag)
 int numbera = 7;
-if ((numbera % 2 == 0 | numbera % 3 == 0) & numbera > 3)
+if ((numbera % 2 == 0 || numbera % 3 == 0) & numbera > 3)
 {
     Console.WriteLine(numbera + " ededi murekkeb ededdir");
 }else
@@ -127,12 +125,12 @@ if (z % y != 0)
 
 #region (Verilmiş 3 rəqəmli ədədin rəqəmlərinin hasilini tapan alqoritm. Misalçün alqoritmə 231 ədədini daxil etdikdə 2*3*1 in nəticəsini verməlidir.)
 int numer = 432;
-int hasil = 0;
+int hasil = 1;
 while (numer > 0)
 {
 
     int arg = numer % 10;
-    hasil += arg;
+    hasil *= arg;
     numer /= 10;
 }
 Console.WriteLine(hasil);
